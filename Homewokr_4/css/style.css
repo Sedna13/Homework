@@ -1,0 +1,52 @@
+body{ 
+    margin:0; 
+} 
+
+.cards{
+    width: 1200px;
+    height: 300px;
+    background-color: rgb(120, 188, 166);
+
+}
+.cards__card {
+    width: 100%;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    
+}
+
+.cards__text{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #F4F9FC;
+    opacity: 0.6;
+    
+}
+.card__title{
+    width: 249px;
+    height: 81px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600px;
+    font-size: 31px;
+    color: #F4F9FC;
+
+}
+.card__show{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #F4F9FC;
+    width: 76px;
+    height: 27px;
+}
+.cards__icon{
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 555px;
+    height: 296px;
+
+}
